@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
-	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="../CSS/ap.css">
-	<meta charset="utf-8" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/ap2.css">
+	<script type="text/javascript" src="../JS/menu.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="navigation">
-		<div class="logo"><a href="ap_welcome.html"><img src="../IMAGES/AW_2_B.png"></a></div>
-		<div class="menu">
-			<ul>
-				<a href="ap_home.html"><li>Home</li></a>
-				<a href="ap_about.html"><li class="current">About</li></a>
-				<a href="ap_others.html"><li>Portfolio</a>
-					<div class="port-menu">
-						<ul>
-							<a href="ap_wedding.html"><li>Wedding</li></a>
-							<a href="ap_modeling.html"><li>Modeling</li></a>
-							<a href="ap_others.html"><li>Others</li></a>
-						</ul>
-					</div>
-				</li>
-				<a href="ap_contact.html"><li>Contact</li></a>
-			</ul>
-		</div>
-		<div class="link"><a href="https://www.facebook.com/asphen.photos" target="_blank"><img src="../IMAGES/fb.png"></a>
-			<a href="https://www.instagram.com/asphen.photos/" target="_blank"><img src="../IMAGES/ig.png"></a>
-		</div>
-		<div class="footer">©2020 COPYRIGHT<br>BY ASPHEN PHOTOS</div>
+  <div class="navigation">
+    <a href="../index.html">ASPHEN GALLERY</a>
+    <div class="menu-section" onclick="menuPull()">
+      <img src="../IMAGES/menu3.png" alt="menu">
+    </div>
+  </div>
+	<div id="menu" onclick="menuPull()">
+		<ul>
+			<li><a href="ap_featured.html">Featured</a></li>
+			<li><a href="ap_wedding.html">Wedding</a></li>
+			<li><a href="ap_modeling.html">Modeling</a></li>
+			<li><a href="ap_others.html">Others</a></li>
+			<li><a href="ap_about.html">About</a></li>
+			<li><a href="ap_contact.html">Contact</a></li>
+		</ul>
 	</div>
-	<div class="content">
-		<h2 class="header">About</h2>
-		<hr width="75%">
+  <div class="content">
+	</div>
+    <div class="current-page">About</div>
+    <div class="footer">©2020 COPYRIGHT<br>BY ASPHEN PHOTOS</div>
+</body>
+</html>
