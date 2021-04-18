@@ -84,7 +84,7 @@ body{
 }
 #menu a{
   text-decoration: none;
-  font-family: 'Train One', cursive;
+  font-family: 'Train One', cursive;  
   color: white;
 }
 #menu a:hover{
@@ -93,10 +93,10 @@ body{
 #menu ul{
   text-align: right;
   position: absolute;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 800;
   line-height: 42px;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
   text-transform: uppercase;
   top: 25vh;
   right: 1vh;
